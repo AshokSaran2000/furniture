@@ -1,0 +1,50 @@
+.footer {
+    width: 100%;
+    background-color: black;
+    margin-top: 100px;
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .footer h1 {
+    color: white;
+    padding-top: 30px;
+    margin-bottom: 10px;
+  }
+  
+  .footer p {
+    color: white;
+    margin-bottom: 20px;
+  }
+  
+  .footer a {
+    text-decoration: none;
+    color: rgba(238, 224, 208);
+    font-size: 30px;
+    margin: 0 10px;
+  }
+  
+  .footer a:hover {
+    color: white;
+  }
+  
+  .footer .copyright,
+  .footer .credite {
+    color: white;
+    margin-top: 20px;
+  }
+  
+  .footer .top {
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  .footer .credite a {
+    color: #ff9966;
+  }
+  
+  @media screen and (max-width: 600px) {
+    .footer a {
+      font-size: 24px; /* Adjust font size for better mobile experience */
+    }
+  }
